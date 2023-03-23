@@ -28,7 +28,7 @@ mvn spring-boot:run
 http://localhost:8081/swagger-ui.html
 ```
 
-<h2>🍰 Test:</h2>
+<h2> Test:</h2>
 
 
 To sign up create a user using the /api/auth/signup endpoint. 
