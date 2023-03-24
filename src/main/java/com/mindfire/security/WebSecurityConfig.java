@@ -19,7 +19,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.mindfire.jwt.AuthEntryPointJwt;
 import com.mindfire.jwt.AuthTokenFilter;
-import com.mindfire.services.UserDetailsServiceImpl;
+import com.mindfire.servicesimpl.UserDetailsServiceImpl;
 
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true)

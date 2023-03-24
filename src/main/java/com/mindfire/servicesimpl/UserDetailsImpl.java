@@ -1,4 +1,4 @@
-package com.mindfire.services;
+package com.mindfire.servicesimpl;
 
 import java.util.Collection;
 import java.util.List;

@@ -18,7 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Entity
 @Table(name = "issue")
-public class IssueEntitty {
+public class Issue {
 
 	@Id
 	@Column(name = "id")

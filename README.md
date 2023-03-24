@@ -14,6 +14,8 @@ spring.datasource.url=jdbc:mysql://localhost:3306/{your_database_name} spring.da
 
 ```
 INSERT INTO roles(name) VALUES('ROLE_USER');
+INSERT INTO USERS(id,email,password,username) VALUES (100,'test2@yopmail.com','$2a$10$4pi0fcq53BftE3CWSavhmulIuxzVy4yGJvaZTA1gdZS3mxJp5ewFu','admin');
+INSERT INTO user_roles (`user_id`, `role_id`) VALUES ('100', '1');
 ```
 
 <p>3. Running the Application To run the application execute the following command in the project directory:</p>
@@ -23,6 +25,16 @@ mvn spring-boot:run
 ```
 
 <p>4. Testing the Endpoints To test the endpoints open a web browser and enter the following URL: bash</p>
+<p>Default user to login is</p>
+
+```
+{
+  "password": "Test@1234",
+  "username": "admin"
+}
+```
+
+
 
 ```
 http://localhost:8081/swagger-ui.html
